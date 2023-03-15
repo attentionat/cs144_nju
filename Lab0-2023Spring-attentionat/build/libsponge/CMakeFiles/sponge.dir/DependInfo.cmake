@@ -4,23 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/byte_stream.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/address.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/address.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/buffer.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/eventloop.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/file_descriptor.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/parser.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/parser.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/socket.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/socket.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/tun.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/tun.cc.o"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util/util.cc" "/home/cs144/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/util.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/byte_stream.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/address.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/address.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/buffer.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/buffer.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/eventloop.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/file_descriptor.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/parser.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/parser.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/socket.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/socket.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/tun.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/tun.cc.o"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util/util.cc" "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/libsponge/CMakeFiles/sponge.dir/util/util.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/tcp_helpers"
-  "/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/tcp_helpers"
+  "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge"
   )
 
 # Targets to which this target links.

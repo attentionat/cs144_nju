@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cs144/Lab0-2023Spring-attentionat/sponge
+CMAKE_SOURCE_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cs144/Lab0-2023Spring-attentionat/build
+CMAKE_BINARY_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build
 
 # Utility rule file for check_lab5.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/cs144/Lab0-2023Spring-attentionat/build
 include CMakeFiles/check_lab5.dir/progress.make
 
 CMakeFiles/check_lab5:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cs144/Lab0-2023Spring-attentionat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing Lab 5..."
-	/home/cs144/Lab0-2023Spring-attentionat/sponge/tap.sh check 10
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing Lab 5..."
+	/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/tap.sh check 10
 	/usr/bin/ctest --output-on-failure --timeout 10 -R '^t_webget|^arp_'
 
 check_lab5: CMakeFiles/check_lab5
@@ -73,6 +73,6 @@ CMakeFiles/check_lab5.dir/clean:
 .PHONY : CMakeFiles/check_lab5.dir/clean
 
 CMakeFiles/check_lab5.dir/depend:
-	cd /home/cs144/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/Lab0-2023Spring-attentionat/sponge /home/cs144/Lab0-2023Spring-attentionat/sponge /home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/build/CMakeFiles/check_lab5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/CMakeFiles/check_lab5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check_lab5.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cs144/Lab0-2023Spring-attentionat/sponge
+CMAKE_SOURCE_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cs144/Lab0-2023Spring-attentionat/build
+CMAKE_BINARY_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build
 
 # Utility rule file for tidy_doctests__parser_example.cc.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cs144/Lab0-2023Spring-attentionat/build
 include CMakeFiles/tidy_doctests__parser_example.cc.dir/progress.make
 
 CMakeFiles/tidy_doctests__parser_example.cc:
-	clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/sponge/doctests/parser_example.cc
+	clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/doctests/parser_example.cc
 
 tidy_doctests__parser_example.cc: CMakeFiles/tidy_doctests__parser_example.cc
 tidy_doctests__parser_example.cc: CMakeFiles/tidy_doctests__parser_example.cc.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/tidy_doctests__parser_example.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_doctests__parser_example.cc.dir/clean
 
 CMakeFiles/tidy_doctests__parser_example.cc.dir/depend:
-	cd /home/cs144/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/Lab0-2023Spring-attentionat/sponge /home/cs144/Lab0-2023Spring-attentionat/sponge /home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/build/CMakeFiles/tidy_doctests__parser_example.cc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/CMakeFiles/tidy_doctests__parser_example.cc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tidy_doctests__parser_example.cc.dir/depend
 

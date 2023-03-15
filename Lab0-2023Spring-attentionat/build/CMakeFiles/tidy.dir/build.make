@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cs144/Lab0-2023Spring-attentionat/sponge
+CMAKE_SOURCE_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cs144/Lab0-2023Spring-attentionat/build
+CMAKE_BINARY_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build
 
 # Utility rule file for tidy.
 
@@ -71,6 +71,6 @@ CMakeFiles/tidy.dir/clean:
 .PHONY : CMakeFiles/tidy.dir/clean
 
 CMakeFiles/tidy.dir/depend:
-	cd /home/cs144/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/Lab0-2023Spring-attentionat/sponge /home/cs144/Lab0-2023Spring-attentionat/sponge /home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/build/CMakeFiles/tidy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/CMakeFiles/tidy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tidy.dir/depend
 

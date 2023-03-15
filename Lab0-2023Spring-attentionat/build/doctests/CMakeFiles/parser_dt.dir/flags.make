@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wsh
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/util -I/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge/tcp_helpers -I/home/cs144/Lab0-2023Spring-attentionat/sponge/libsponge 
+CXX_INCLUDES = -I/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/util -I/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge/tcp_helpers -I/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/libsponge 
 

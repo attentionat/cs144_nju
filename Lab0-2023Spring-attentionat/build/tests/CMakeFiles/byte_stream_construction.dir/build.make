@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cs144/Lab0-2023Spring-attentionat/sponge
+CMAKE_SOURCE_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cs144/Lab0-2023Spring-attentionat/build
+CMAKE_BINARY_DIR = /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/byte_stream_construction.dir/depend.make
@@ -58,17 +58,17 @@ include tests/CMakeFiles/byte_stream_construction.dir/progress.make
 include tests/CMakeFiles/byte_stream_construction.dir/flags.make
 
 tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: tests/CMakeFiles/byte_stream_construction.dir/flags.make
-tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: /home/cs144/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cs144/Lab0-2023Spring-attentionat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o"
-	cd /home/cs144/Lab0-2023Spring-attentionat/build/tests && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o -c /home/cs144/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc
+tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o"
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/tests && /usr/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o -c /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc
 
 tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.i"
-	cd /home/cs144/Lab0-2023Spring-attentionat/build/tests && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cs144/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc > CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.i
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/tests && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc > CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.i
 
 tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.s"
-	cd /home/cs144/Lab0-2023Spring-attentionat/build/tests && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs144/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc -o CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.s
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/tests && /usr/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/tests/byte_stream_construction.cc -o CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.s
 
 tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o.requires:
 
@@ -93,8 +93,8 @@ tests/byte_stream_construction: tests/CMakeFiles/byte_stream_construction.dir/bu
 tests/byte_stream_construction: tests/libspongechecks.a
 tests/byte_stream_construction: libsponge/libsponge.a
 tests/byte_stream_construction: tests/CMakeFiles/byte_stream_construction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cs144/Lab0-2023Spring-attentionat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable byte_stream_construction"
-	cd /home/cs144/Lab0-2023Spring-attentionat/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/byte_stream_construction.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable byte_stream_construction"
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/byte_stream_construction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/byte_stream_construction.dir/build: tests/byte_stream_construction
@@ -106,10 +106,10 @@ tests/CMakeFiles/byte_stream_construction.dir/requires: tests/CMakeFiles/byte_st
 .PHONY : tests/CMakeFiles/byte_stream_construction.dir/requires
 
 tests/CMakeFiles/byte_stream_construction.dir/clean:
-	cd /home/cs144/Lab0-2023Spring-attentionat/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/byte_stream_construction.dir/cmake_clean.cmake
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/byte_stream_construction.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/byte_stream_construction.dir/clean
 
 tests/CMakeFiles/byte_stream_construction.dir/depend:
-	cd /home/cs144/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/Lab0-2023Spring-attentionat/sponge /home/cs144/Lab0-2023Spring-attentionat/sponge/tests /home/cs144/Lab0-2023Spring-attentionat/build /home/cs144/Lab0-2023Spring-attentionat/build/tests /home/cs144/Lab0-2023Spring-attentionat/build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/tests /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/tests /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/byte_stream_construction.dir/depend
 
