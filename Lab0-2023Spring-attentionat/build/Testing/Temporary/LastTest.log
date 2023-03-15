@@ -1,3 +1,31 @@
-Start testing: Mar 14 22:35 PDT
+Start testing: Mar 15 01:48 PDT
 ----------------------------------------------------------
-End testing: Mar 14 22:35 PDT
+28/166 Testing: t_webget
+28/166 Test: t_webget
+Command: "/home/cs144/cs144_nju/Lab0-2023Spring-attentionat/sponge/tests/webget_t.sh"
+Directory: /home/cs144/cs144_nju/Lab0-2023Spring-attentionat/build
+"t_webget" start time: Mar 15 01:48 PDT
+Output:
+----------------------------------------------------------
+Function called: get_URL(www.njucn2022.top, /check_ans/ans).
+Warning: get_URL() has not been implemented yet.
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 15 Mar 2023 08:48:23 GMT
+Content-Type: application/octet-stream
+Content-Length: 49
+Last-Modified: Mon, 12 Sep 2022 12:05:37 GMT
+Connection: close
+ETag: "631f2091-31"
+Accept-Ranges: bytes
+
+adfafsdf3lfo5d6s6f7oj7f8ad8s876546SDSFSGDGGFDGRY
+<end of output>
+Test time =   5.23 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: Mar 15 01:48 PDT
+"t_webget" time elapsed: 00:00:05
+----------------------------------------------------------
+
+End testing: Mar 15 01:48 PDT
